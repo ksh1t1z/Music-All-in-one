@@ -1,0 +1,97 @@
+#body{
+    font-family: Arial;
+    letter-spacing: 1px;
+    color: rgb(7, 226, 241);
+    background-color: transparent;
+    position: absolute;
+    top: 400px;
+    font-weight: bolder;
+}
+#box{
+    height: 100px;
+    width: 400px;
+    background-color: black;
+    opacity: 1;
+    border-radius: 20px;
+}
+#particles-js{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+	margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+}
+#player{
+    position: absolute;
+    font-size: 17px;
+    left: 20px;
+    top: 15px;
+}
+#title{
+    font-size: 20px;
+}
+#artist{
+    font-size: 10px; 
+}
+
+#artwork{
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    left: 320px;
+    top: 18px; 
+    border-radius: 100%;
+}
+
+.Title{
+    width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rotate{
+    animation: rotation 60s infinite linear;
+}
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }to
+    {
+        transform: rotate(359deg);
+    }
+} 
+
+@font-face{
+    font-family: "Arial";
+    src: url('fonts/ArialBoldItalic.ttf');
+}
+
+
+#previous{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 0pt;
+}
+
+#pP{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 90pt;
+}
+
+#next{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 180pt;
+}
+
+#controls{
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+
