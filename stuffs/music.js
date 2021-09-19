@@ -20,6 +20,10 @@ function mainUpdate(type) {
     }
 }
 
+document.getElementById('previous').addEventListener("click", previous);
+document.getElementById('next').addEventListener("click", next);
+document.getElementById('pP').addEventListener("click", pP);
+
 function previous() {
     window.location = 'xeninfo:prevtrack'
 }
@@ -29,3 +33,4 @@ function pP() {
 function next() {
     window.location = 'xeninfo:nexttrack'
 }
+
